@@ -3,6 +3,12 @@
 #     def __init__(self, x):
 #         self.val = x
 #         self.next = None
+# Step 1: slow = fast = 3 
+# Step 2: slow = 2 and fast = 0
+# Step 3: slow = 0 and fast = 2
+# Step 4: slow = -4 and fast = -4
+# slow = 3 and fast = -4
+# slow = 2 and fast 2 
 
 class Solution:
     def detectCycle(self, head: Optional[ListNode]) -> Optional[ListNode]:
